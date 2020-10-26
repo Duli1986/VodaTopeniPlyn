@@ -16,16 +16,16 @@ class Contacts extends Component {
                         <Container>
                             <Row>
                                 <Col lg="4" className="section-centered">
-                                    <h3>Aleš Příhoda</h3>
-                                    <div>prihoda@engineersprague.cz</div>
+                                    <h3>David Šafránek</h3>
+                                    <div></div>
                                 </Col>
                                 <Col lg="4" className="section-centered">
-                                    <h3>Tomáš Hlaváč</h3>
-                                    <div>hlavac@engineersprague.cz</div>
+                                    <h3>Luboš Dulovec</h3>
+                                    <div></div>
                                 </Col>
                                 <Col lg="4" className="section-centered">
-                                    <h3>Richard Jarošík</h3>
-                                    <div>fandimkarlovce@gmail.com</div>
+                                    <h3>Martin Haltuch</h3>
+                                    <div></div>
                                 </Col>
                             </Row>
                         </Container>
