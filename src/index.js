@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import {BrowserRouter, Route, Redirect, Switch} from "react-router-dom";
+// import "assets/css/bootstrap.min.css";
+// import "assets/scss/paper-kit.scss";
+// import "assets/demo/demo.css";
+import reportWebVitals from "./reportWebVitals";
+import Index from "./views/Index";
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter basename={'/'}>
+        <Switch>
+            <Route path="/index" render={props => <Index {...props} />}/>
+            <Redirect to="/index"/>
+        </Switch>
+    </BrowserRouter>,
+    document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
