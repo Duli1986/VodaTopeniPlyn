@@ -16,14 +16,20 @@ class Contacts extends Component {
                         <Container>
                             <Row>
                                 <Col lg="4" className="section-centered">
+                                    <img className="img-cc img-no-padding img-responsive" alt="Aleš Příhoda"
+                                         src={"assets/img/contacts/ales.jpg"}/>
                                     <h3>David Šafránek</h3>
                                     <div></div>
                                 </Col>
                                 <Col lg="4" className="section-centered">
+                                    <img className="img-cc img-no-padding img-responsive" alt="Aleš Příhoda"
+                                         src={"assets/img/contacts/ales.jpg"}/>
                                     <h3>Luboš Dulovec</h3>
                                     <div></div>
                                 </Col>
                                 <Col lg="4" className="section-centered">
+                                    <img className="img-cc img-no-padding img-responsive" alt="Aleš Příhoda"
+                                         src={"assets/img/contacts/ales.jpg"}/>
                                     <h3>Martin Haltuch</h3>
                                     <div></div>
                                 </Col>

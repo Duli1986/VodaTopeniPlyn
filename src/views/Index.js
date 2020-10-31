@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "../components/Contacts/Contact";
+import Contacts from "../components/Contacts/Contacts";
 
 
 function Index() {
@@ -15,7 +16,7 @@ function Index() {
             <div className="main">
 
                 <div id="kontakt">
-                    <Contact/>
+                    <Contacts/>
                 </div>
             </div>
         </>
